@@ -14,7 +14,7 @@ import numpy as np
 ### with no trailing \n
 
 file_lines = []
-with open("mass-data-tsb", "r") as f:
+with open("mass-data", "r") as f:
     for line in f:
         file_lines.append(line)
 
